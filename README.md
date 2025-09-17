@@ -55,12 +55,12 @@ npm run dev
 npm start
 ```
 
-## Rutas
-
+## Rutas (ejecutar en postman o thunder client)
+```bash
 # registrar usario
 http://localhost:3000/api/auth/register
 
-# login(obtner JWT)
+# login(obtener JWT)
 http://localhost:3000/api/auth/login
 
 #obtener perfil privado
@@ -71,7 +71,7 @@ http://localhost:3000/api/profile/private
 
 #eliminar perfil
 http://localhost:3000/api/profile/private
-
+```
 ## Estructura del Proyecto
 ```
 src/
