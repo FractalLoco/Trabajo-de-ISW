@@ -24,8 +24,7 @@ API REST desarrollada como material educativo para las clases de Ingeniería de 
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/Marco-0107/CLASE-2-AYUDANTIA-ISW-ALUMNOS.git
-cd CLASE-2-AYUDANTIA-ISW-ALUMNOS
+git clone https://github.com/FractalLoco/Trabajo-de-ISW
 ```
 
 2. Instala las dependencias:
@@ -56,15 +55,22 @@ npm run dev
 npm start
 ```
 
-## Endpoints
+## Rutas
 
-### Autenticación
-- `POST /api/auth/register` - Registrar usuario
-- `POST /api/auth/login` - Iniciar sesión
+# registrar usario
+http://localhost:3000/api/auth/register
 
-### Perfil
-- `GET /api/profile/public` - Perfil público
-- `GET /api/profile/private` - Perfil privado (requiere autenticación)
+# login(obtner JWT)
+http://localhost:3000/api/auth/login
+
+#obtener perfil privado
+http://localhost:3000/api/profile/private
+
+#modificar perfil
+http://localhost:3000/api/profile/private
+
+#eliminar perfil
+http://localhost:3000/api/profile/private
 
 ## Estructura del Proyecto
 ```
